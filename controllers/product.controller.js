@@ -2,9 +2,18 @@ const productModel = require('../models/product.model.js')
 
 const getAllProducts = async (req, res) => {
     try {
-        const allProducts = await productModel.find({});
+        const { featured } = req.query;
+        const queryObject = {};
+        if (featured) {
+            queryObject.featured = featured === 'true' ? true : false;
+        }
+        console.log(queryObject);
+        const allProducts = await productModel.find(queryObject);
+
         res.status(200).json({
-            mesage: "success",
+            success: true,
+            message: "Products fetched successfully",
+            nbHits: allProducts.length,
             data: allProducts
         });
     } catch (error) {
