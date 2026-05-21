@@ -1,0 +1,1 @@
+db.products.updateMany({ featured: { $exists: false } }, { $set: { featured: false } })
