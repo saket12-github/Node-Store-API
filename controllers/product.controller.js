@@ -1,7 +1,7 @@
 const productModel = require('../models/product.model.js')
 
 const getAllProducts = async (req, res) => {
-    const { featured, company: companyName, name, sort } = req.query;
+    const { featured, company: companyName, name, sort, fields } = req.query;
     const queryObject = {};
     if (featured) {
         queryObject.featured = featured === 'true' ? true : false;
@@ -21,6 +21,12 @@ const getAllProducts = async (req, res) => {
     } else {
         products = products.sort('createdAt')
     }
+
+    if (fields) {
+        const fieldsList = fields.split(',').join(' ');
+        products = products.select(fieldsList);
+    }
+
     const allProducts = await products;
 
     res.status(200).json({
