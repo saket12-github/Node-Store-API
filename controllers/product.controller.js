@@ -38,6 +38,8 @@ const getAllProducts = async (req, res) => {
     res.status(200).json({
         success: true,
         message: "Products fetched successfully",
+        limitValue: limit,
+        pageNumber: page,
         nbHits: allProducts.length,
         data: allProducts
     });
