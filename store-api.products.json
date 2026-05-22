@@ -1,0 +1,213 @@
+[{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94aa"
+  },
+  "name": "accent chair",
+  "price": 25,
+  "company": "marcos",
+  "rating": 4,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94ab"
+  },
+  "name": "albany sectional",
+  "price": 109,
+  "company": "liddy",
+  "rating": 5,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94ac"
+  },
+  "name": "albany table",
+  "price": 309,
+  "company": "liddy",
+  "rating": 4.9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94ad"
+  },
+  "name": "armchair",
+  "price": 125,
+  "company": "marcos",
+  "rating": 4.8,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94ae"
+  },
+  "name": "bar stool",
+  "price": 40,
+  "company": "liddy",
+  "rating": 4.6,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94af"
+  },
+  "name": "dining table",
+  "price": 42,
+  "company": "ikea",
+  "rating": 4.55,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b0"
+  },
+  "name": "emperor bed",
+  "price": 23,
+  "company": "ikea",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b1"
+  },
+  "name": "entertainment center",
+  "price": 59,
+  "featured": true,
+  "company": "caressa"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b2"
+  },
+  "name": "high-back bench",
+  "price": 39,
+  "featured": true,
+  "company": "ikea"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b3"
+  },
+  "name": "leather sofa",
+  "price": 99,
+  "company": "caressa",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b4"
+  },
+  "name": "modern bookshelf",
+  "price": 31,
+  "featured": true,
+  "company": "caressa"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b5"
+  },
+  "name": "modern poster",
+  "price": 30,
+  "company": "liddy",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b6"
+  },
+  "name": "shelf",
+  "price": 30,
+  "company": "ikea",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b7"
+  },
+  "name": "simple chair",
+  "price": 109,
+  "company": "liddy",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b8"
+  },
+  "name": "sofa set",
+  "price": 129,
+  "company": "marcos",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94b9"
+  },
+  "name": "suede armchair",
+  "price": 15,
+  "company": "caressa",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94ba"
+  },
+  "name": "utopia sofa",
+  "price": 79,
+  "featured": true,
+  "company": "liddy"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94bb"
+  },
+  "name": "vase table",
+  "price": 120,
+  "featured": true,
+  "company": "marcos"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94bc"
+  },
+  "name": "wooden bed",
+  "price": 25,
+  "company": "ikea",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94bd"
+  },
+  "name": "wooden desk",
+  "price": 15,
+  "company": "ikea",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94be"
+  },
+  "name": "wooden desk",
+  "price": 40,
+  "company": "ikea",
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94bf"
+  },
+  "name": "wooden table",
+  "price": 23,
+  "featured": true,
+  "company": "caressa"
+},
+{
+  "_id": {
+    "$oid": "6a0b049ea7db9d739d2a94c0"
+  },
+  "name": "a first wooden table",
+  "price": 23,
+  "featured": true,
+  "company": "caressa"
+}]
